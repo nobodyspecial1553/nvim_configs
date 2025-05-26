@@ -65,9 +65,9 @@ syntax region odinLineComment start=/\/\// end=/$/  contains=@Spell,odinTodo
 syntax region odinBlockComment start=/\/\*/ end=/\*\// contains=@Spell,odinTodo,odinBlockComment
 syn sync ccomment odinBlockComment
 
-highlight def link odinKeyword Statement
-highlight def link odinConditional Conditional
-highlight def link odinOperator Operator
+highlight def link odinKeyword Ignore "Statement
+highlight def link odinConditional Ignore "Conditional
+highlight def link odinOperator Ignore "Operator
 
 highlight def link odinString String
 highlight def link odinRawString String
