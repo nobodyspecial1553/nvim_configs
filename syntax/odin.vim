@@ -83,7 +83,7 @@ highlight def link odinBlockComment Comment
 
 " highlight def link odinTodo Todo
 
-highlight def link odinAttribute Statement
+highlight def link odinAttribute Ignore "Statement
 highlight def link odinType Type
 highlight def link odinBool Boolean
 highlight def link odinNull Constant
